@@ -1,0 +1,189 @@
+@media screen and (min-width: 769px) {
+    .md-50{
+        flex-basis:48% ;
+    }
+    .md-85{
+        flex-basis: 85%;
+    }
+    .md-15{
+        flex-basis: 15%;
+    }
+    .order1{
+        order: 1;
+    }
+    .mailSub input{
+        flex-basis: 80%;
+    }
+    .mailSub button{
+        flex-basis: 19%;
+    }
+    .details .dcard{
+        flex-basis: 49%;
+    }
+
+    .gallery{
+        background-color: #EEEEEE;
+    }
+    .gallery .container {
+        display: flex;
+        flex-flow: column wrap;
+        align-content: space-between;
+        justify-content: flex-start;
+        height: 1800px;
+      
+      }
+      
+      .item {
+        width: 48%;
+        position: relative;
+      }
+      .item img{
+        width: 100%;
+        border: 4px solid white;
+    }
+
+    .pizza{
+        order: 0;
+    }
+    .burger{
+        order: 1;
+    }
+    .lpizza{
+        order: 2;
+    }
+    .oegg{
+        order: 3;
+    }
+    .steak{
+        order: 4;
+    }
+    .fried{
+        order: 5;
+    }
+    .kebab{
+        order: 6;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ld-25{
+        flex-basis: 25%;
+    }
+    .ld-32{
+        flex-basis: 32%;
+    }
+    .ld-50{
+        flex-basis:48% ;
+    }
+    .ld-85{
+        flex-basis: 85%;
+    }
+    .ld-15{
+        flex-basis: 15%;
+    }
+    .ld-order1{
+        order: 1;
+    }
+    .mailSub input{
+        flex-basis: 80%;
+    }
+    .mailSub button{
+        flex-basis: 19%;
+    }
+    form .usrname input{
+        flex-basis: 48%;
+    }
+    .heroImg{
+        flex-basis: 47%;
+        order: 1;
+    }
+    .heroContent{
+        flex-basis: 47%;
+        text-align: start;
+    }
+    .heroButtons{
+        justify-content: flex-start;
+    }
+    .heroButtons .book{
+        border-top-left-radius: 0;
+    }
+
+
+    .gallery{
+        background-color: #EEEEEE;
+    }
+    .gallery .container {
+        display: flex;
+        flex-flow: column wrap-reverse;
+        align-content: space-between;
+        height: 1300px;
+    }
+    
+    .item {
+        width:32%;
+        margin-bottom: 2%;
+        position: relative;
+    }
+    
+    .item img {
+        width: 100%;
+        border: 4px solid white;
+    }
+    
+    .item:nth-child(3n+1) {
+        order: 1;
+    }
+    
+    .item:nth-child(3n+2) {
+        order: 2;
+    }
+    
+    .item:nth-child(3n) {
+        order: 3;
+    }
+    
+    .gallery .container::before,
+    .gallery .container::after {
+        content: "";
+        flex-basis: 100%;
+        width: 0;
+        order: 2;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    .xld-25{
+        flex-basis: 25%;
+    }
+    .xld-32{
+        flex-basis: 32%;
+    }
+    .xld-50{
+        flex-basis:48% ;
+    }
+    .xld-85{
+        flex-basis: 85%;
+    }
+    .xld-15{
+        flex-basis: 15%;
+    }
+    .xld-order1{
+        order: 1;
+    }
+    .mailSub input{
+        flex-basis: 80%;
+    }
+    .mailSub button{
+        flex-basis: 19%;
+    }
+    .menuItems{
+        display: block;
+    }
+    #menu{
+        display: none;
+    }
+}
+
+
+
